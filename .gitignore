@@ -1,0 +1,43 @@
+# Entornos
+venv/
+
+# Dependencias Node
+node_modules/
+
+# Datos sensibles
+data/*
+
+# Mantener estructura de carpetas
+!data/raw/
+!data/raw/pdf_estudiantes/.gitkeep
+!data/interim/
+!data/interim/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+
+# Bloquear datos reales
+data/raw/pdf_estudiantes/*.pdf
+
+# Datos generados
+*.csv
+*.sqlite3
+
+# Modelos
+*.h5
+*.pt
+
+# Compilados
+*.hex
+*.class
+
+# Variables de entorno
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Resultados
+results/*
+!results/.gitkeep
