@@ -1,43 +1,73 @@
-# Entornos
+# =====================================
+# ENTORNOS
+# =====================================
 venv/
+.env
 
-# Dependencias Node
+
+# =====================================
+# DEPENDENCIAS
+# =====================================
 node_modules/
 
-# Datos sensibles
+
+# =====================================
+# DATOS SENSIBLES
+# =====================================
+
+# Ignorar todos los datos originales
 data/*
 
 # Mantener estructura de carpetas
 !data/raw/
 !data/raw/pdf_estudiantes/.gitkeep
-!data/interim/
 !data/interim/.gitkeep
-!data/processed/
 !data/processed/.gitkeep
 
-# Bloquear datos reales
+# Proteger información académica
 data/raw/pdf_estudiantes/*.pdf
+data/**/*.csv
 
-# Datos generados
-*.csv
-*.sqlite3
 
-# Modelos
+# =====================================
+# RESULTADOS EXPERIMENTALES
+# =====================================
+
+# Permitir resultados para revisión académica
+!results/
+
+# Ignorar archivos temporales
+results/**/*.tmp
+
+
+# =====================================
+# MODELOS
+# =====================================
+
+# Modelos entrenados (si contienen datos)
 *.h5
 *.pt
+*.pkl
+*.joblib
 
-# Compilados
-*.hex
-*.class
 
-# Variables de entorno
-.env
-
-# Python
+# =====================================
+# PYTHON
+# =====================================
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Resultados
-results/*
-!results/.gitkeep
+
+# =====================================
+# COMPILADOS
+# =====================================
+*.hex
+*.class
+
+
+# =====================================
+# SISTEMA
+# =====================================
+.DS_Store
+Thumbs.db

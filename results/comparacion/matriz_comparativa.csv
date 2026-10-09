@@ -1,0 +1,5 @@
+﻿modelo,configuracion,silhouette,davies_bouldin,ruido
+K-Means,k=2,0.4932552778604249,0.8984879136738896,
+K-Medoids,k=2,0.492114,0.897678,
+Jerárquico,"ward, k=2",0.4972966187771384,0.8154819311369225,
+HDBSCAN,"min_cluster_size=30, min_samples=10",0.5937269217213702,0.5981888636116464,43.0
