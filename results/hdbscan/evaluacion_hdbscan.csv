@@ -1,2 +1,2 @@
-﻿modelo,configuracion,silhouette,davies_bouldin,ruido
-HDBSCAN,"min_cluster_size=30, min_samples=10",0.5937269217213702,0.5981888636116464,43
+﻿modelo,configuracion,silhouette,davies_bouldin,ruido,estudiantes_total,estudiantes_agrupados
+HDBSCAN,"min_cluster_size=30, min_samples=10",0.5937269217213702,0.5981888636116464,43,244,201

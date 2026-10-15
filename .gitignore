@@ -71,3 +71,6 @@ __pycache__/
 # =====================================
 .DS_Store
 Thumbs.db
+
+# Asignaciones individuales de estudiantes
+results/**/asignaciones_*.csv
