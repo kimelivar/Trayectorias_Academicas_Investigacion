@@ -1,0 +1,21 @@
+{
+  "fecha_captura": "2026-10-21T15:45:25-05:00",
+  "sistema_operativo": "Windows",
+  "version_so": "11",
+  "arquitectura": "AMD64",
+  "cpu_modelo": "AMD Ryzen 7 5700U with Radeon Graphics",
+  "cpu_procesadores_logicos": 16,
+  "ram_fisica_gib": 15.33,
+  "python": "3.14.7",
+  "versiones_paquetes": {
+    "numpy": "NO INSTALADO",
+    "pandas": "NO INSTALADO",
+    "scikit-learn": "NO INSTALADO",
+    "pyclustering": "NO INSTALADO",
+    "hdbscan": "NO INSTALADO",
+    "matplotlib": "NO INSTALADO",
+    "jupyter": "NO INSTALADO",
+    "nbclient": "NO INSTALADO"
+  },
+  "limites": "La memoria RAM disponible durante cada ejecución, el modelo de disco y el número de núcleos físicos no pueden inferirse con seguridad aquí. Corroborar manualmente."
+}

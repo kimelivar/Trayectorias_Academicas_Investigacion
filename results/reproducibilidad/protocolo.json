@@ -1,0 +1,43 @@
+{
+  "semillas": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "fraccion": 0.8,
+  "n_completo": 244,
+  "n_submuestra": 195,
+  "n_caracteristicas": 11,
+  "caracteristicas": [
+    "periodos_registrados",
+    "promedio_global",
+    "creditos_totales",
+    "cursos_aprobados",
+    "cursos_desaprobados",
+    "cursos_previo_inicio",
+    "promedio_inicial",
+    "promedio_final",
+    "tendencia",
+    "tasa_aprobacion",
+    "variabilidad_nota"
+  ],
+  "hash_sha256_archivo_entrada": "662f2008befbdde9ff9a1f142bea103fff6c954c5d930133ce9e5778b7e829a1",
+  "nota": "Resultados propios de remuestreo. No incluyen identificadores estudiantiles. La métrica ARI de HDBSCAN condiciona a observaciones asignadas en ambas repeticiones."
+}
